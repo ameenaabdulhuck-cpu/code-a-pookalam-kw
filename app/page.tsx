@@ -6,10 +6,7 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="text-center py-16 px-4">
-        <h1
-          className="text-6xl md:text-8xl font-bold text-ombre mb-8 tracking-wider"
-          style={{ fontFamily: "Bungee Shade, cursive" }}
-        >
+        <h1 className="text-6xl md:text-8xl font-bold text-ombre mb-8 tracking-wider font-bungee-shade">
           CODE-A-POOKALAM
         </h1>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">

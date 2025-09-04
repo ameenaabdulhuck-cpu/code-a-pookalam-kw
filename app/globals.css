@@ -77,8 +77,8 @@
 }
 
 @theme inline {
-  /* Updated Bungee Shade font variable to match Next.js font import */
-  --font-bungee: var(--font-bungee-shade);
+  /* Fixed Bungee Shade font variable to match the CSS variable from Next.js font import */
+  --font-bungee-shade: var(--font-bungee-shade);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
