@@ -38,6 +38,7 @@
   --sidebar-accent-foreground: #ffffff;
   --sidebar-border: #e5e7eb;
   --sidebar-ring: rgba(0, 0, 0, 0.1);
+  --font-bungee-shade: "Bungee Shade", cursive; /* Added for Next.js font import */
 }
 
 .dark {
@@ -76,8 +77,8 @@
 }
 
 @theme inline {
-  /* Added Bungee Shade font for the title */
-  --font-bungee: "Bungee Shade", cursive;
+  /* Updated Bungee Shade font variable to match Next.js font import */
+  --font-bungee: var(--font-bungee-shade);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -124,9 +125,6 @@
     @apply bg-background text-foreground;
   }
 }
-
-/* Added Bungee Shade font import */
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 
 /* Added ombre text effect utility class */
 .text-ombre {
